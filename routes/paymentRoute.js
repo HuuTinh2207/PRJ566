@@ -26,8 +26,8 @@ router.post("/", async (req, res) => {
         },
       ],
       mode: "payment",
-      success_url: "http://localhost:3000/payment/success",
-      cancel_url: "http://localhost:3000/payment/cancel",
+      success_url: "https://prj-666-front.vercel.app/payment/success",
+      cancel_url: "https://prj-666-front.vercel.app/payment/cancel",
     });
 
     res.json({ id: session.id });
